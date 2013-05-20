@@ -14,15 +14,15 @@ set autoread
 set nocompatible
 " Show current mode
 set showmode
-" 
+" Blink-Mode \0/ 
 set visualbell
-"
+" Silent Mode
 set noerrorbells
 "
 set smartcase
 " Allow coursor keys in insert mode
 set esckeys
-"
+" Case insensitive search	
 set ignorecase
 "
 set hlsearch
@@ -40,8 +40,7 @@ inoremap { {}<left>
 inoremap [ []<left>
 "
 set completeopt=longest,menuone
-"
+" Set a dark background
 set background=dark
-"
+" Change the Colorscheme to Monokai
 colorscheme Monokai
-"
