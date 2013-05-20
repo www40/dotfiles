@@ -1,6 +1,9 @@
-syntax on
-set number
-set mouse=a
+"""""""""""""""""""""""""""""""""""""""""
+" File: .vimrc
+" Maintainer: www40
+"""""""""""""""""""""""""""""""""""""""""
+syntax on " Turn Syntax on
+set number " Turn Linenumbers on
 set ai
 set autoread
 set nocompatible
