@@ -33,11 +33,11 @@ nnoremap i a
 " Switch a with i key
 nnoremap a i
 " Insert a ) when a ( is typed
-inoremap ( ()<left>
+ inoremap ( ()<left>
 " Insert a } when a { is typed
-inoremap { {}<left>
+ inoremap { {}<left>
 " Insert a ] when a [ is typed
-inoremap [ []<left>
+ inoremap [ []<left>
 "
 set completeopt=longest,menuone
 " Set a dark background
