@@ -69,7 +69,7 @@ echo "${PWD/$HOME/~}"
 zstyle ':vcs_info:svn*' formats "%{$fg[blue]%}%s %{$fg[grey]%} %{$fg[cyan]%}%b%{$reset_color%}%m%u%c%{$reset_color%} "
 zstyle ':vcs_info:git*' formats "%{$fg[blue]%}%s %{$fg[grey]%} %{$fg[cyan]%}%b%{$reset_color%}%m%u%c%{$reset_color%} "
 
-PROMPT='$fg[cyan]%}%n $fg[white]at $fg[cyan]%m$fg[white]: $fg[yellow]$(get_pwd)
-$reset_color %*$fg[yellow] →$fg[green] '
+PROMPT='$fg[cyan]%}%n $fg[blue]@ $fg[cyan]%m$fg[white]: $fg[yellow]$(get_pwd)
+$reset_color$fg[green] %*$fg[yellow]  →$fg[white] '
 
 RPROMPT='${vcs_info_msg_0_}'
