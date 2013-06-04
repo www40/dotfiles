@@ -1,3 +1,6 @@
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
 # Alias
 alias dir='ls -la'
 alias ..='cd ..'
@@ -66,8 +69,8 @@ function get_pwd() {
 echo "${PWD/$HOME/~}"
 }
 
-zstyle ':vcs_info:svn*' formats "%{$fg[blue]%}%s %{$fg[grey]%} %{$fg[cyan]%}%b%{$reset_color%}%m%u%c%{$reset_color%} "
-zstyle ':vcs_info:git*' formats "%{$fg[blue]%}%s %{$fg[grey]%} %{$fg[cyan]%}%b%{$reset_color%}%m%u%c%{$reset_color%} "
+zstyle ':vcs_info:svn*' formats "%{$fg[green]%}%s %{$fg[grey]%} %{$fg[yellow]%}%b%{$reset_color%}%m%u%c%{$reset_color%} "
+zstyle ':vcs_info:git*' formats "%{$fg[green]%}%s %{$fg[grey]%} %{$fg[yellow]%}%b%{$reset_color%}%m%u%c%{$reset_color%} "
 
 PROMPT='$fg[cyan]%}%n $fg[blue]@ $fg[cyan]%m$fg[white]: $fg[yellow]$(get_pwd)
 $reset_color$fg[green] %*$fg[yellow]  →$fg[white] '
