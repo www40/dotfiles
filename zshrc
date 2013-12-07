@@ -78,3 +78,8 @@ PROMPT='$fg[red]%}%n $fg[white]@ $fg[red]%m$fg[white]: $fg[yellow]$(get_pwd)
 $reset_color$fg[green] %*$fg[yellow]  →$fg[white] '
 
 RPROMPT='${vcs_info_msg_0_}'
+
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

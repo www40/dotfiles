@@ -38,12 +38,18 @@ nnoremap a i
  inoremap { {}<left>
 " Insert a ] when a [ is typed
  inoremap [ []<left>
+" Insert another " 
+ inoremap " ""<left>
+" Insert another ' 
+ inoremap ' ''<left>
+" Insert another ` 
+ inoremap ` ``<left>
 "
 set completeopt=longest,menuone
 " Set a dark background
 set background=dark
 " Change the Colorscheme to Monokai
-colorscheme Monokai
+colorscheme darkblue
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
   " Enable file type detection

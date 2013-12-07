@@ -7,3 +7,8 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 # Alias
 alias dir='ls -la'
 alias ..='cd ..'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
